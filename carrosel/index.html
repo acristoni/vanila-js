@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrosel</title>
+    <!--Font Awasome-->
+    <script src="https://kit.fontawesome.com/16aa57e0a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <!-- title -->
+            <div class="title">
+                <h2>Nossas Avaliações</h2>
+                <div class="underline">
+
+                </div>
+            </div>
+            <!--Avaliações-->
+            <article class="avaliacao">
+                <div>
+                    <button id="antes" class="botoes" onclick="voltarCompleto()"
+                    >
+                        <i class="fa-solid fa-angles-left"></i>
+                    </button>
+                    <button id="depois" class="botoes">
+                        <i class="fa-solid fa-angles-right" onclick="avancarCompleto()"></i>
+                    </button>
+                </div>
+                
+                <div class="img-container">
+                    <img src="eu.jpg" id="image" alt="">
+                </div>
+                <h4 id="autor">Adonai Cristoni</h4>
+                <p id="titulo">Desenvolvedor de Software</p>
+                <p id="info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod maiores ipsam corporis expedita hic, illo quia magnam eos ex recusandae. Dolor repellendus excepturi deserunt nisi sed ipsa quasi aliquam atque? </p>
+            </article>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

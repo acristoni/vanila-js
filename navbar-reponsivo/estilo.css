@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    max-height: 100%;
+    height: 650px;
+    background:radial-gradient(grey, white);
+    background-repeat: no-repeat;
+}
+
+
+#navbar {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 10px;
+}
+
+#titulo {
+    display: flex;
+}
+
+#ti1 {
+    color: aquamarine;
+}
+
+#ti2 {
+    color: coral;
+    margin-left: 0;
+}
+
+#menu-escondido {
+    margin: 10px;
+}
+
+#drop-content {
+    display: none;
+    background-color: white;
+}
+
+.itens-menu {
+    margin-top: 10px;
+    font-size: larger;
+    color: blueviolet;
+    text-shadow: 4px;
+}
